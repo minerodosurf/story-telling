@@ -1,0 +1,88 @@
+section.content-widget:nth-of-type(2n+1) {
+  /*background: #f0f0f0;*/
+}
+@media only screen and (min-width: 1100px) {
+  .home-gallery .carousel-wrapper > ul {
+    height:344px;
+  }
+ 
+}
+.home-gallery ul figure picture{
+  background-image: none !important;
+}
+@media only screen and (min-width: 580px) {
+  .events-gallery ul figure img{
+    max-height: 526px;
+  }
+}
+.events-gallery .owl-prev,
+.events-gallery .owl-next {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+@media only screen and (min-width: 767px) {
+	.events-gallery .owl-dots div {
+		padding: 0.8rem 2rem;
+    	min-height: 80px;
+	}
+}
+@media only screen and (min-width: 1100px) {
+  .events-gallery .owl-dots div {
+    font-size: 1.7rem;
+    min-height: 105px;
+  }
+}
+/* ---- Products Gallery Slider ----*/
+.product-gallery #gallery-images,
+#full-gallery{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.product-gallery #gallery-images li,
+#full-gallery li {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  text-align: center;
+}
+.product-gallery #gallery-images figure,
+#full-gallery figure{
+  margin: 0;
+  padding: 0;
+  background: #333;
+ 
+}
+.product-gallery #gallery-images.owl-carousel .owl-item  figure img{
+  max-height: 480px;
+}
+.side-nav-gallery.product-gallery #gallery-images.owl-carousel .owl-item  figure img{
+  max-height: 480px;
+}
+@media only screen and (min-width: 1200px) {
+ 
+  .side-nav-gallery.product-gallery .owl-nav {
+    width: 75%;
+  }
+  .product-gallery ul li {
+    width: 75%;
+  }
+  .product-gallery.side-nav-gallery .owl-dots {
+    width: 25%;
+  }
+}
+.loading-container,
+section.owl-full-width.loading-container{
+  background:#FFF url(../images/spinner.gif) center center no-repeat;
+ 
+  height: 80px;
+  margin-top: 450px;
+}
+.loaded,
+section.owl-full-width.loaded{
+  background: transparent;
+  height:auto;
+  margin-top: 0 !important;
+}

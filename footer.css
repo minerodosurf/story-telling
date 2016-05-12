@@ -1,0 +1,8 @@
+@media only screen and (min-width: 540px) {
+  #footer {
+    padding: 10px 20px 0;
+  }
+  #footer nav {
+    padding: 0;
+  }
+}

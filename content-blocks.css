@@ -1,0 +1,14 @@
+.must-do h2,
+.in-this-section h2  {
+  border: none;
+  font-size: 2rem;
+  line-height:2rem;
+  margin: 0 0 15px;
+  padding: 0;
+  color: #333;
+}
+.follow-us h2 {
+  font-size: 1.8rem;
+  line-height: 1.8rem;
+  color: #333;
+}

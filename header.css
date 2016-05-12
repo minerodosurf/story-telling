@@ -1,0 +1,107 @@
+
+/*///////////////////////////////////////////////
+//  Header images slideshow
+///////////////////////////////////////////////*/
+.slideshow {
+  background: #f5f5f5;
+  min-height: 85px;
+  margin: 0 auto;
+  width: 100%;
+  position: relative;
+}
+.slideshow .views-row{
+  margin: 0 auto;
+  position: relative;
+  top: 0px;
+  width: 100%;
+  max-width: 1980px;
+}
+.slideshow .views-row picture{
+  display: block;
+}
+@media only screen and (min-width: 768px) {
+  .slideshow {
+    display: block;
+    margin-top: 50px;
+    margin-bottom: 0px;
+    min-height: 225px;
+  }
+}
+@media only screen and (min-width: 915px) {
+  .slideshow{
+ 
+ 
+    min-height: 260px;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .slideshow{
+    min-height: 350px;
+  }
+}
+@media only screen and (min-width: 1440px) {
+  .slideshow{
+    min-height: 422px;
+  }
+}
+@media only screen and (min-width: 1980px) {
+  .slideshow{
+    min-height: 580px;
+  }
+}
+.slideshow .slideset{
+  position: relative;
+}
+.slideshow .slide {
+ 
+  z-index: 1;
+  width: 100%;
+}
+.slideshow .slide {
+  display: none;
+}
+.slide:first-child {
+  display: block;
+}
+.slideshow .slide.active,
+.slideshow-note .popup p.active {
+  z-index: 2;
+}
+.slideshow img {
+  min-height: 85px;
+  width: 100%;
+  max-height: 580px;
+}
+ 
+/* Pagination box */
+.pagination-box {
+  display: none;
+}
+
+@media only screen and (min-width: 767px) {
+  .pagination-box {
+    display: block;
+    border-bottom: 0px solid rgba(255, 255, 255, 0.87);
+ 
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+ 
+    font-size: 1.2rem;
+ 
+    padding: 20px;
+    margin-top: -80px;
+    clear: both;
+    float: left;
+    line-height: 32px;
+    text-align: center;
+    text-shadow: 0 0 2px #fff;
+    width: 100% !important;
+    z-index: 2;
+    position: relative;
+  }
+  .front .pagination-box {
+    border-bottom: none;
+ 
+  }
+}
